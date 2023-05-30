@@ -1,0 +1,35 @@
+Basic Structure of C++ program
+
+#include<iostream>
+using namespace std:
+int main()
+{
+ std:cout << "Hello World";
+ return 0;
+}
+
+Step by Step Analyzation 
+
+#(directive)- It is processed by preprocessor which is the program invoked by compiler.
+
+Note: Preprocessor- Program that processes our source code before compilation
+
+#include - It tells compiler to include a file
+
+#include<iostream> - It tells compiler to include standard input and output file
+
+using namespace std: - It is used to import all the type of namespace (defination) into current namespace of program. It consists of hundreds of predefined identifers.
+
+int main() : It is used to declare function named 'main' under the integer type. Every C/C++ program must have main function. It must be enclosed with {}
+
+Note: void main() must be avoided in the program as the compiler may throw garbage value.
+
+return 0 - It is used to return the value of the function. It indicates finishing of function. If return 0 is not written in the program, the program returns integer value 0 in the case of successful execution.
+
+
+
+
+
+
+
+
